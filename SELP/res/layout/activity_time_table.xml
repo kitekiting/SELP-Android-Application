@@ -1,0 +1,380 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+        android:id="@+id/scrollView"
+   		 android:layout_height="match_parent"
+    	android:layout_width="match_parent"
+    	android:background="@drawable/charback">
+    	
+    <LinearLayout android:id = "@+id/semester1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "vertical">
+        
+        <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+        
+        <View
+    android:layout_width="fill_parent"
+    android:layout_height="3dip"
+    android:background="#FFFFFF"
+	/>
+        
+        <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        android:layout_gravity = "center"
+        android:textStyle = "bold"
+        android:text="@string/semester1" /> 
+        
+        <View
+    android:layout_width="fill_parent"
+    android:layout_height="3dip"
+    android:background="#FFFFFF"
+	/>
+    	
+    <LinearLayout 
+        android:id = "@+id/monday"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "vertical">
+        
+    
+        <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        android:layout_gravity = "center"
+        android:textStyle = "bold"
+        android:text="@string/monday" /> 
+        
+   <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+
+   
+	</LinearLayout>
+	
+    <LinearLayout 
+        android:id = "@+id/tuesday"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "vertical">
+        
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+        <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        android:layout_gravity = "center"
+        android:textStyle = "bold"
+        android:text="@string/tuesday" /> 
+        
+   <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+
+   
+	</LinearLayout>
+	
+    <LinearLayout 
+        android:id = "@+id/wednesday"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "vertical">
+        
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+        <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        android:layout_gravity = "center"
+        android:textStyle = "bold"
+        android:text="@string/wednesday" /> 
+        
+   <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+
+   
+	</LinearLayout>
+	
+    <LinearLayout 
+        android:id = "@+id/thursday"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "vertical">
+        
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+        <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        android:layout_gravity = "center"
+        android:textStyle = "bold"
+        android:text="@string/thursday" /> 
+        
+   <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+   
+   
+	</LinearLayout>
+	
+    <LinearLayout 
+        android:id = "@+id/friday"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "vertical">
+        
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+        <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        android:layout_gravity = "center"
+        android:textStyle = "bold"
+        android:text="@string/friday" /> 
+        
+   <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+	
+    </LinearLayout>
+    
+    
+    <!-- ***********************Start of Semester 2 Layout*********************** -->
+    
+    <LinearLayout android:id = "@+id/semester2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "vertical">
+   
+        <View
+    android:layout_width="fill_parent"
+    android:layout_height="3dip"
+    android:background="#FFFFFF"
+	/>
+       
+        <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        android:layout_gravity = "center"
+        android:textStyle = "bold"
+        android:text="@string/semester2" /> 
+        
+        <View
+    android:layout_width="fill_parent"
+    android:layout_height="3dip"
+    android:background="#FFFFFF"
+	/>
+    	
+    <LinearLayout 
+        android:id = "@+id/mondays2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "vertical">
+        
+    
+        <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        android:layout_gravity = "center"
+        android:textStyle = "bold"
+        android:text="@string/monday" /> 
+        
+   <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+
+   
+	</LinearLayout>
+	
+    <LinearLayout 
+        android:id = "@+id/tuesdays2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "vertical">
+        
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+        <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        android:layout_gravity = "center"
+        android:textStyle = "bold"
+        android:text="@string/tuesday" /> 
+        
+   <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+
+   
+	</LinearLayout>
+	
+    <LinearLayout 
+        android:id = "@+id/wednesdays2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "vertical">
+        
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+        <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        android:layout_gravity = "center"
+        android:textStyle = "bold"
+        android:text="@string/wednesday" /> 
+        
+   <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+
+   
+	</LinearLayout>
+	
+    <LinearLayout 
+        android:id = "@+id/thursdays2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "vertical">
+        
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+        <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        android:layout_gravity = "center"
+        android:textStyle = "bold"
+        android:text="@string/thursday" /> 
+        
+   <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+   
+   
+	</LinearLayout>
+	
+    <LinearLayout 
+        android:id = "@+id/fridays2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "vertical">
+        
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+        <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        android:layout_gravity = "center"
+        android:textStyle = "bold"
+        android:text="@string/friday" /> 
+        
+   <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+	
+    </LinearLayout>
+    
+    </LinearLayout>
+    
+    </LinearLayout>
+    
+    
+	
+    
+
+    </ScrollView>

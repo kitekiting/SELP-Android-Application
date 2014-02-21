@@ -1,0 +1,376 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+        android:id="@+id/scrollView"
+   		 android:layout_height="match_parent"
+    	android:layout_width="match_parent"
+    	android:background="@drawable/charback">
+    	
+    
+    	
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "vertical">
+        
+        <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+        <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        android:layout_gravity = "center"
+        android:textStyle = "bold"
+        android:text="@string/courseInfo" /> 
+        
+        <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+    	
+    	
+        <LinearLayout
+    	android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "horizontal">
+        
+    	    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:textColor="@color/blue"
+        android:textSize = "16sp"
+        android:text="@string/lecturer" />
+
+    	    <TextView
+    	        android:id="@+id/lecturer"
+    	        android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+    	        android:padding="3dip"
+    	        android:textColor="@color/white" />
+    	  
+    	</LinearLayout>
+    	
+    	<LinearLayout
+    	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "horizontal">
+        
+    	    <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        android:text="@string/courseAcro" /> 
+        <TextView
+    	        android:id = "@+id/acronym"
+    	        android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+    	        android:padding="3dip"
+    	        android:textColor="@color/white" />   
+    	  
+    	</LinearLayout>
+    	
+    	<LinearLayout
+    	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "horizontal">
+        
+    	    <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        android:text="@string/euclid" /> 
+        <TextView
+    	        android:id = "@+id/euclid"
+    	        android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+    	        android:padding="3dip"
+    	        android:textColor="@color/white" />   
+    	  
+    	</LinearLayout>
+    	
+    	<LinearLayout
+    	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "horizontal">
+        
+    	    <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        android:text="@string/yearTaken" /> 
+        <TextView
+    	        android:id = "@+id/year"
+    	        android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+    	        android:padding="3dip"
+    	        android:textColor="@color/white" />   
+    	  
+    	</LinearLayout>
+    	
+    	<LinearLayout
+    	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "horizontal">
+        
+    	    <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        android:text="@string/devSem" /> 
+        <TextView
+    	        android:id = "@+id/semester"
+    	        android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+    	        android:padding="3dip"
+    	        android:textColor="@color/white" />   
+    	  
+    	</LinearLayout>
+    	
+    	<LinearLayout
+    	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "horizontal">
+        
+    	    <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        android:text="@string/courseLevel" />   
+        <TextView
+    	        android:id = "@+id/level"
+    	        android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+    	        android:padding="3dip"
+    	        android:textColor="@color/white" />   
+         
+    	  
+    	</LinearLayout>
+    	
+    	<LinearLayout
+    	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "horizontal">
+        
+    	    <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        android:text="@string/coursePoints" /> 
+        <TextView
+    	        android:id = "@+id/points"
+    	        android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+    	        android:padding="3dip"
+    	        android:textColor="@color/white" />   
+    	  
+    	</LinearLayout>
+    	
+    	<LinearLayout
+    	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "horizontal">
+        
+    	    <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        android:text="@string/degree" /> 
+        <TextView
+    	        android:id = "@+id/degree"
+    	        android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+    	        android:padding="3dip"
+    	        android:textColor="@color/white" />   
+    	  
+    	</LinearLayout>
+    	
+    	
+    	
+    	<View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+    	<TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        android:layout_gravity = "center"
+        android:textStyle="bold"
+        android:text="@string/venue" /> 
+        
+    	<View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+    	
+    	<LinearLayout
+    	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "horizontal">
+        
+    	    <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        android:text="@string/location" /> 
+        <TextView
+    	        android:id = "@+id/location"
+    	        android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+    	        android:padding="3dip"
+    	        android:textColor="@color/white" />   
+    	  
+    	</LinearLayout>
+    	
+    	<LinearLayout
+    	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "horizontal">
+        
+    	    <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        android:text="@string/room" /> 
+        <TextView
+    	        android:id = "@+id/room"
+    	        android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+    	        android:padding="3dip"
+    	        android:textColor="@color/white" />   
+    	  
+    	</LinearLayout>
+    	
+    	<LinearLayout
+    	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "horizontal">
+        
+    	    <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        android:text="@string/map" /> 
+        <TextView
+    	        android:id = "@+id/map"
+    	        android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+    	        android:padding="3dip"
+    	        android:textColor="@color/white" />   
+    	  
+    	</LinearLayout>
+    	<View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+      
+    	    <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        android:layout_gravity = "center"
+        android:textStyle = "bold"
+        android:text="@string/website" /> 
+        
+    	    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+    	    
+        <TextView
+       android:id = "@+id/url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        
+        />      
+    	
+        <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+    	    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        android:layout_gravity = "center"
+        android:textStyle = "bold"
+        android:text="@string/drpsPage" />  
+       
+    	    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+        <TextView
+       android:id = "@+id/drps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize = "16sp"
+        android:padding="3dip"
+        
+         />    
+    	  
+    	
+    </LinearLayout>
+        
+        
+ 
+    
+    
+    
+</ScrollView>
+
+

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Prompt</string>
+    <string name="action_settings">Settings</string>
+    <string name="developer">Marais Bourbon-Leftley</string>
+
+    <color name="blue">#557efa</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#9c9c9c</color>
+
+    <string name="button_year1">Year 1</string>
+    <string name="button_year2">Year 2</string>
+    <string name="button_year3">Year 3</string>
+    <string name="button_year4">Year 4</string>
+    <string name="button_MSc">MSc</string>
+    <string name="button_timeTable">Create Timetable</string>
+    <string name="button_browse">Browse Courses</string>
+    <string name="button_location">Find Location</string>
+    <string name="button_bsq7">7 Bristo Square</string>
+    <string name="button_grgs7">7 George Square</string>
+    <string name="button_24bp">24 Buccleuch Place</string>
+    <string name="button_at">Appleton Tower</string>
+    <string name="button_cmb">Chrystal Macmillan Building</string>
+    <string name="button_dht">David Hume Tower</string>
+    <string name="button_dhtlt">DHT Lecture Theatres</string>
+    <string name="button_dsb">Dugald Stewart Building</string>
+    <string name="button_fh">Forrest Hill</string>
+    <string name="button_mh">Minto House</string>
+    <string name="button_mst">Medical School Teviot</string>
+    <string name="button_oc">Old College</string>
+    <string name="button_oib">Old Infirmary Building</string>
+    <string name="button_rb">Robson Building</string>
+    <string name="button_wrb">William Robertson Building</string>
+    <string name="button_pl">Paterson\'s Land</string>
+    <string name="button_gs1">1 George Square</string>
+    <string name="button_ah">Adam House</string>
+    <string name="button_goi">Geography (Old Infirmary)</string>
+    <string name="title_activity_courses">Courses</string>
+    <string name="title_activity_years">Select Year</string>
+    <string name="title_activity_browse_test">Informatics Courses</string>
+    <string name="title_activity_yearcourses">Courses</string>
+    <string name="title_activity_course_info">CourseInfo</string>
+    <string name="title_activity_time_table">Time Table</string>
+    <string name="clearSearch">X</string>
+    <string name="search_hint">Search Courses</string>
+    <string name="actionBar_search">Search</string>
+    <string name="actionBar_done">Done</string>
+    <string name="actionBar_save">Save</string>
+    <string name="actionBar_load">Load</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="semester1">Semester 1</string>
+    <string name="semester2">Semester 2</string>
+    <string name="title_activity_browse_options">Prompt</string>
+    <string name="button_browseAll">Show All Courses</string>
+    <string name="button_browseSemester">Browse By Semester</string>
+    <string name="button_browseYear">Browse By Year</string>
+    <string name="title_activity_year_browser">YearBrowser</string>
+    <string name="edlogo">Edinburgh University</string>
+    <string name="title_activity_location">Location</string>
+    <string name="degree">Degree: </string>
+    <string name="courseInfo">Course Information</string>
+    <string name="lecturer">Lecturer: </string>
+    <string name="courseAcro">Course Acronym: </string>
+    <string name="euclid">EUCLID ID: </string>
+    <string name="yearTaken">Normal Year Taken: </string>
+    <string name="devSem">Delivery Semester: </string>
+    <string name="courseLevel">Course Level: </string>
+    <string name="coursePoints">Course Points: </string>
+    <string name="venue">Venue</string>
+    <string name="location">Location: </string>
+    <string name="room">Room: </string>
+    <string name="map">Map: </string>
+    <string name="website">Website</string>
+    <string name="drpsPage">DRPS Page</string>
+
+</resources>

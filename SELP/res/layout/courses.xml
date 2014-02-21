@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id = "@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background= "@drawable/charback"
+    >
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+    
+    <LinearLayout 
+        android:id = "@+id/searchView"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/searchText"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:textColor="@color/white"
+            android:hint="@string/search_hint"
+            android:ems="10" >
+            
+
+            <requestFocus />
+        </EditText>
+        
+        <Button 
+            android:id = "@+id/clearSearch"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize = "32sp"
+       		android:textColor="@color/blue"
+        	android:background="@drawable/mainselect"
+        	android:text="@string/clearSearch"
+            
+            />
+                
+    </LinearLayout>
+
+  
+
+       
+    
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+
+    
+    <ListView android:id="@+id/favList"
+   		 android:layout_height="wrap_content"
+    	android:layout_width="match_parent"
+        android:divider="#000000"
+        android:dividerHeight="2dp"
+        android:paddingRight = "2dp"
+        android:paddingLeft = "2dp">
+        </ListView>
+        
+    <ListView android:id="@+id/listView"
+   		 android:layout_height="wrap_content"
+    	android:layout_width="match_parent"
+        android:divider="#FFFFFF"
+        android:dividerHeight="2dp"
+        android:paddingRight = "2dp"
+        android:paddingLeft = "2dp">
+       
+        
+         
+        
+        </ListView>
+        
+    
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" 
+    android:orientation="vertical"
+    android:background="@drawable/charback"
+    android:padding = "5dp">
+    
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+    
+   <Button
+        android:id="@+id/timeTable"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="93dp"
+        android:background="@drawable/mainselect"
+        android:text="@string/button_timeTable"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    
+    <Button
+        android:id="@+id/browse"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/timeTable"
+        android:layout_below="@+id/timeTable"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/mainselect"
+        android:text="@string/button_browse"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    
+    <Button
+        android:id="@+id/location"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/browse"
+        android:layout_below="@+id/browse"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/mainselect"
+        android:text="@string/button_location"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/developer"
+        android:textColor="@color/grey"
+        android:textSize="12sp"
+        android:textStyle="italic"
+       />
+
+    <ImageView
+        android:id="@+id/edLogo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/edlogo" 
+        android:contentDescription="@string/edlogo"/>
+
+    
+  
+</RelativeLayout>
